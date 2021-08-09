@@ -1,15 +1,17 @@
 import './Header.css';
 import NavBar from './NavBar/NavBar'
+import headerPic from '../../images/headerPic.png'
+import Social from './Social'
 
 
 
-const Header = props => {
+
+const Header =() => {
 
     return (
         <header className='header'>
-            <p>
-                <img src="https://i.ibb.co/xq0sKCC/logo.png" alt="logo" />
-            </p>
+            <img className='headerPic' src={headerPic} alt="" />
+            <Social />
             <NavBar className='header-nav' />
         </header>
     )

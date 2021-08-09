@@ -1,25 +1,13 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background: url('../../images/berlinHeader.jpg');
     width: 100%;
     margin-top: 0px;
-    height: 150px;
-    border: 1px solid rgba(87,37,127,0.48);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 5px 6px 1px rgba(87,37,127,0.48)
+    height: 50px;
 }
-.header p{
-    width: 100px;
-    height: 100px;
-    margin-left: 250px;
+.headerPic{
+    margin-left: 20px;
 }
 
-.header p img{
-    width: 80px;
-    height: 80px;
-}
-.header-nav{
-    
-}
+
+
